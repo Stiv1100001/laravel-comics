@@ -1,0 +1,77 @@
+footer #footer-up {
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+}
+footer #footer-up .container {
+  position: relative;
+  overflow: hidden;
+}
+footer #footer-up .container img {
+  height: 50vh;
+  position: absolute;
+  top: -50px;
+  right: 50px;
+}
+footer #footer-up .url-container {
+  max-width: 45%;
+  max-height: 40vh;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+footer #footer-up .url-container ul {
+  margin-bottom: 1.5rem;
+}
+footer #footer-up .url-container ul li {
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+footer #footer-up .url-container ul li:first-child {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+footer #footer-up .url-container ul li:first-child a {
+  color: white;
+}
+footer #footer-up .url-container ul li a {
+  color: gray;
+  text-decoration: none;
+}
+footer #footer-down {
+  background-color: rgb(48, 48, 48);
+  padding: 2.5rem 0;
+}
+footer #footer-down .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer #footer-down .container > div {
+  display: flex;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  align-items: center;
+}
+footer #footer-down .container > div span {
+  color: rgb(2, 130, 249);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer #footer-down .container > div ul {
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+footer #footer-down .container > div ul li {
+  list-style-type: none;
+}
+footer #footer-down .container .btn {
+  padding: 1rem;
+  border: rgb(2, 130, 249) solid 3px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
