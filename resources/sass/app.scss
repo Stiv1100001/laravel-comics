@@ -161,6 +161,36 @@ main {
             }
         }
     }
+
+    #main-menu {
+        padding: 3rem 0;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+
+            color: white;
+
+            li {
+                list-style-type: none;
+
+                display: flex;
+                align-items: center;
+                column-gap: 0.5rem;
+
+                img {
+                    height: 3.5rem;
+                    max-width: 3.5rem;
+                }
+
+                span {
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
 }
 
 footer {

@@ -127,6 +127,30 @@ main .container .buttons .btn {
   font-weight: bold;
   padding: 0.5rem 3rem;
 }
+main #main-menu {
+  padding: 3rem 0;
+}
+main #main-menu ul {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+main #main-menu ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+main #main-menu ul li img {
+  height: 3.5rem;
+  max-width: 3.5rem;
+}
+main #main-menu ul li span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 footer #footer-up {
   background-image: url("../images/footer-bg.jpg");
