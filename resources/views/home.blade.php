@@ -9,11 +9,11 @@
         <div class="container">
             <h1 class="title">Current Series</h1>
             <div class="cards">
-                @foreach ($comics as $comic)
-                <div class="card bg-black">
+                @foreach ($comics as $index => $comic)
+                <a class="card bg-black" href="{{ route('Comic', ['id'=> $index] ) }}">
                     <img src="{{ $comic['thumb']}}" alt="">
                     <h3>{{$comic[ 'title']}}</h3>
-                </div>
+                </a>
                 @endforeach
             </div>
             <div class="buttons">

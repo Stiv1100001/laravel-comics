@@ -3,7 +3,7 @@
         <div class="bg-blue">
             <div class="container d-flex justify-content-end align-items-center">
                 <span class="me-5">DC POWERED VISA</span>
-                <span>ADDITIONAL DC SITES</span>
+                <span>ADDITIONAL DC SITES <i class="fa-solid fa-chevron-down"></i></span>
             </div>
         </div>
         <div class="container">
@@ -12,7 +12,7 @@
                 <nav>
                     <ul>
                         <li><a href="#">characters</a></li>
-                        <li class="active"><a href="#">comics</a></li>
+                        <li class="active"><a href="/">comics</a></li>
                         <li><a href="#">movie</a></li>
                         <li><a href="#">tv</a></li>
                         <li><a href="#">games</a></li>

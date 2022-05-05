@@ -20,3 +20,15 @@ Route::get('/', function () {
 
     return view('home', $data);
 })->name('Home');
+
+Route::get('/comic/{id}', function ($id) {
+    $allComics = config('comics');
+
+    if (!is_numeric($id) || $id < 0 || $id > count($allComics)) {
+        abort(404, "Comic not found");
+    }
+
+    $data = [ "comic" => $allComics[$id] ];
+
+    return view('comic', $data);
+})->name('Comic');
